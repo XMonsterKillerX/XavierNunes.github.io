@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Developer Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="bracket">&lt;</span>Dev<span class="accent-dot">.</span>Portfolio<span class="bracket">/&gt;</span>
+      </a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="btn btn-outline nav-cta">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ME Section -->
+  <header id="hero" class="section hero">
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <span class="status-indicator"></span> Available for Projects & Opportunities
+      </div>
+      <h1 class="hero-title">
+        Building scalable cloud architectures, clean web systems, & intuitive software.
+      </h1>
+      <p class="hero-description">
+        Hi 
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Featured Work</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+      
+      <div class="hero-meta">
+        <div class="meta-item">
+          <span class="meta-number">10+</span>
+          <span class="meta-label">Completed Projects</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-number">Multi-Stack</span>
+          <span class="meta-label">Cloud, Mobile & Web</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-number">100%</span>
+          <span class="meta-label">Open Source Focused</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01. Overview</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card main-bio">
+          <p>
+            I specialize in full-lifecycle software development, combining backend reliability with clean, interactive user interfaces. My workflow centers on modern web technologies, modular code patterns, and cloud-ready infrastructure.
+          </p>
+          <p>
+            Whether developing native mobile tools, containerized services with Docker, or performant frontends in React and standard web protocols, I focus on building software that is maintainable, well-architected, and purposeful.
+          </p>
+        </div>
+        <div class="about-card highlight-card">
+          <h3>Core Philosophy</h3>
+          <ul class="clean-list">
+            <li><strong>Clarity First:</strong> Well-documented, maintainable code over unnecessary complexity.</li>
+            <li><strong>Reliable Infrastructure:</strong> Automated environments, containerization, and safe networking.</li>
+            <li><strong>Responsive Design:</strong> Fluid UI that works naturally on mobile, tablet, and widescreen.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02. Capabilities</span>
+        <h2 class="section-title">Technical Toolbelt</h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-category">
+          <div class="category-icon">💻</div>
+          <h3>Languages</h3>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">JavaScript (ES6+)</span>
+            <span class="tag">C++</span>
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+            <span class="tag">Dart</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Lua</span>
+          </div>
+        </div>
+
+        <!-- Frameworks & Frontend -->
+        <div class="skill-category">
+          <div class="category-icon">⚛️</div>
+          <h3>Frontend & Mobile</h3>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">Vite</span>
+            <span class="tag">Flutter</span>
+            <span class="tag">HTML5 / CSS3</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">REST APIs</span>
+          </div>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div class="skill-category">
+          <div class="category-icon">☁️</div>
+          <h3>Cloud & Infrastructure</h3>
+          <div class="tags">
+            <span class="tag">AWS</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Linux / Ubuntu Server</span>
+            <span class="tag">Tailscale VPN</span>
+            <span class="tag">Git / GitHub Actions</span>
+            <span class="tag">CI/CD</span>
+          </div>
+        </div>
+
+        <!-- Backend & Databases -->
+        <div class="skill-category">
+          <div class="category-icon">🗄️</div>
+          <h3>Backend & Storage</h3>
+          <div class="tags">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MongoDB Atlas</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">JPA / Hibernate</span>
+            <span class="tag">SAMBA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03. Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="cloud">Cloud & Systems</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-category="mobile">
+          <div class="project-header">
+            <span class="project-type">Mobile Application</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" title="Source Code">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-title">Smart Inventory & Receipt OCR Scanner</h3>
+          <p class="project-description">
+            A standalone mobile utility featuring optical character recognition (OCR) for receipts, low-inventory threshold triggers, and offline-first SQLite synchronization.
+          </p>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>SQLite</span>
+            <span>OCR Camera</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-category="web">
+          <div class="project-header">
+            <span class="project-type">Web Application</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" title="Source Code">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-title">Dynamic Interactive Weather Dashboard</h3>
+          <p class="project-description">
+            Fast, responsive single-page web app built with Vite and React featuring live meteorological data fetching, adaptive thematic visuals, and geocoding search.
+          </p>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Vite</span>
+            <span>REST API</span>
+            <span>CSS Grid</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-category="cloud">
+          <div class="project-header">
+            <span class="project-type">Infrastructure & Systems</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" title="Documentation">Docs ↗</a>
+            </div>
+          </div>
+          <h3 class="project-title">Self-Hosted VPN & Multi-Drive Home Cloud</h3>
+          <p class="project-description">
+            Configured an enterprise server tower running Ubuntu LTS, segmented SAMBA networked file arrays, containerized Docker microservices, and secure mesh networking.
+          </p>
+          <div class="project-tech">
+            <span>Ubuntu Server</span>
+            <span>Docker</span>
+            <span>Tailscale</span>
+            <span>SAMBA</span>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card" data-category="web">
+          <div class="project-header">
+            <span class="project-type">Backend Service</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" title="Source Code">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-title">Enterprise Spring MVC Web Platform</h3>
+          <p class="project-description">
+            Three-layer Java Spring MVC architectural implementation featuring persistent entity repositories, strict service layer isolation, and data validation controllers.
+          </p>
+          <div class="project-tech">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Data JPA</span>
+            <span>PostgreSQL</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Education -->
+  <section id="experience" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04. Timeline</span>
+        <h2 class="section-title">Education & Milestones</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Current</span>
+            <h3 class="timeline-role">Cloud Computing & Computer Science</h3>
+            <p class="timeline-organization">Undergraduate Studies</p>
+            <p class="timeline-desc">
+              Focusing on distributed systems, data structures and algorithms, network infrastructure, database modeling, and software engineering architecture.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Continuous</span>
+            <h3 class="timeline-role">Self-Directed Systems Engineering</h3>
+            <p class="timeline-organization">Independent Labs</p>
+            <p class="timeline-desc">
+              Deploying containerized environments, developing cross-platform applications, testing algorithms in C++, and maintaining continuous cloud operations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-box">
+        <span class="section-tag">05. Connect</span>
+        <h2 class="contact-title">Let's Build Something Together</h2>
+        <p class="contact-sub">
+          Whether you're looking to discuss open engineering roles, collaborate on an open-source initiative, or talk tech stacks, feel free to reach out.
+        </p>
+        
+        <div class="email-copy-wrapper">
+          <input type="text" id="emailInput" value="xaviermarianonunes@gmail.com" readonly />
+          <button class="btn btn-primary" id="copyBtn">Copy Email</button>
+        </div>
+        <span class="copy-feedback" id="copyFeedback">Email copied to clipboard!</span>
+
+        <div class="contact-socials">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span class="bullet">•</span>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span class="bullet">•</span>
+          <a href="mailto:xaviermarianonunes@gmail.com">Direct Mail</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear"></span> All rights reserved.</p>
+      <a href="#hero" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
