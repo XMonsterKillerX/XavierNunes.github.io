@@ -278,12 +278,12 @@ a {
 
 .image-glow-ring {
   position: relative;
-  width: 280px;
-  height: 280px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  padding: 6px;
+  padding: 4px;
   background: linear-gradient(135deg, var(--accent), #1f6feb);
-  box-shadow: 0 10px 40px -10px rgba(88, 166, 255, 0.35);
+  box-shadow: 0 8px 30px -10px rgba(88, 166, 255, 0.35);
 }
 
 .hero-image {
@@ -693,10 +693,10 @@ a {
   }
 
   .image-glow-ring {
-    width: 200px;
-    height: 200px;
+    width: 140;
+    height: 140;
   }
-  
+
   .nav-toggle {
     display: flex;
   }
